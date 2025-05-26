@@ -14,7 +14,7 @@ st.set_page_config(page_title="VirusTotal IOC Scanner", layout="wide")
 st.title("VirusTotal IOC Scanner")
 
 # Input field for VirusTotal API key (type=password to hide input)
-api_key = st.text_input("9237fe3237f3c39b1f77468611a0c3564d608496039a71e8b7f64923c7796452", type="password")
+api_key = st.text_input("You api key", type="password")
 
 # Multiline text box for IOCs (one per line)
 ioc_input = st.text_area("Enter IOCs (one per line)", height=200, 
